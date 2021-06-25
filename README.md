@@ -11,7 +11,7 @@ The code has specific inclusions according to the given tasks:
 - Interface
 - Exceptions
 - Collections
-- Enhanced for loop and iterators
+- Enhanced for loops and iterators
 - Lambda functions
 - Java design patterns (Singleton, Mediator Pattern)
-- Threads, volatile variable, synchronization, monitors
+- Threads, volatile variables, synchronization, monitors
