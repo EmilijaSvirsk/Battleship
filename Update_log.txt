@@ -1,0 +1,35 @@
+Ship_7.3
+- Splash objects moved to Game main class and now start() function actually works
+
+Ship_7.2
+- Splash function run() was overriden and should work fine now (used in class MainFrame actionPerformed())
+
+Ship_7
+- game's window is now launched in the screen's middle
+- added Splash class with Thread extension 
+(uses Frame object for synchronization, variable ready is set as voltile)
+- Splash class is invoked every time a ship is destroyed and generates a pop up image
+
+Ship_6
+- MainFrame class is given Singleton design
+- Implemented Mediator Pattern 
+(participants - Computer and Person class which extend abstract class Player; 
+interactions between participants - class Gridline;
+mediator - class MainFrame)
+- Lambda function used in class ShipCount constructor
+
+Ship_5
+- in Ship class array changed to ArrayList
+- in Player class array changed to ArrayList (same changes in child classes Computer and Person)
+- in ShipCount class array changed to LinkedHashMap
+- in MainFrame class method tableContent now uses Iterators to update table's content
+- classes Ship and ShipCount moved to new folder Ship
+- added additional background color to button graphics
+
+Ship_4
+- fixed graphical interface - no more inconvenient resizing
+- added text log for displaying messages
+- added table of destroyed ships
+- game automatically stops when a player wins
+- new class ShipCount for keeping track of destroyed ships and their size
+- new class BadFileException for checking no file and incorrect file data exceptions
